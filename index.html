@@ -9,51 +9,107 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #0E1917; /* Dark background for high-tech feel */
-            color: #ffffff; /* White text for contrast */
+            background-color: #0E1917;
+            color: #d3d3d3;
         }
+
+        .container {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 20px;
+        }
+
         header {
-            background-color: #0E1917; /* Header color to match the logo's primary color */
+            background-color: #0E1917;
             text-align: center;
-            padding: 20px 0;
+            font-size: large;
+            margin: 0;
+            padding-bottom: 40px;
         }
+
         header img {
-            width: 150px; /* Logo width, you can adjust as needed */
+            width: 250px;
         }
+
+        header p {
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            font-size: medium;
+        }
+
         .content {
             text-align: center;
-            padding: 50px 20px;
         }
-        .content h1 {
-            color: #6FB0CE; /* Accent color from the logo */
-        }
+
         .content p {
-            color: #d3d3d3; /* Light gray text for readability */
+            color: #d3d3d3;
             margin: 20px 0;
             line-height: 1.6;
         }
+
+        address {
+            font-size: small;
+        }
+
         .footer {
-            background-color: #333333; /* Dark footer to contrast with the body */
-            color: #d3d3d3; /* Light gray text */
-            text-align: center;
-            padding: 10px 0;
+            font-size: x-small;
+            color: #d3d3d3;
+            padding: 10px;
             position: absolute;
             bottom: 0;
-            width: 100%;
+            left: 0;
         }
     </style>
 </head>
 <body>
+<div class="container">
     <header>
-        <img src="./logo.png" alt="Velarion Solutions Logo"> <!-- Path to logo image -->
+        <img src="./logo.png" alt="Velarion Solutions Logo">
+        <p>Leading the way in innovative software development and consultancy, providing cutting-edge solutions for a
+            digital world.</p>
     </header>
     <div class="content">
-        <h1>Welcome to Velarion Solutions LLC</h1>
-        <p>We lead the way in innovative software development and consultancy, providing cutting-edge solutions for a digital world.</p>
+        <!-- Mission Statement -->
+        <section id="mission">
+            <h2>Our Mission</h2>
+            <p>At Velarion Solutions LLC, our mission is to empower businesses through state-of-the-art software
+                solutions.
+                We strive to be at the forefront of technology, delivering sustainable and scalable products
+                worldwide.</p>
+        </section>
+
+        <!-- Services Offered -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a comprehensive range of services including custom software development, IT consultancy, and
+                enterprise solutions to clients across various industries.</p>
+        </section>
+
+        <!-- Global Operations -->
+        <section id="operations">
+            <h2>Worldwide Operations</h2>
+            <p>Operating on a global scale, with successful projects and partnerships in over 5 countries.</p>
+        </section>
+
+        <!-- Contact Information -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For more information about our services or to discuss how we can help your business, please contact us
+                at:</p>
+            <address>
+                Email: velarionsolutions@proton.me<br>
+                Phone: +1 (786) 141-2909<br>
+                Address: 30 N Gould St Ste R, Sheridan, WY 82801
+            </address>
+        </section>
     </div>
     <div class="footer">
         &copy; 2023 Velarion Solutions LLC. All rights reserved.
     </div>
+</div>
 </body>
 </html>
-
